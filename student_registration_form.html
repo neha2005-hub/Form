@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="first.html" style="background-color: palevioletred;">
+        <h1 align="center">Student Registration Form</h1>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Roll no. : </td>
+                <td><input type="text" size="35"></td>
+            </tr>
+            
+            <tr>
+                <td>Student name : </td>
+                <td>
+                    <input type="text" placeholder="First Name" size="14"> - 
+                    <input type="text" placeholder="Last Name" size="14">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Father's name : </td>
+                <td><input type="text" size="35"></td>
+            </tr>
+            
+            <tr>
+                <td>Date of Birth : </td>
+                <td>
+                    <input type="text" size="1" placeholder="Day"> - 
+                    <input type="text" size="1" placeholder="Month"> - 
+                    <input type="text" size="2" placeholder="Year">
+                    <i>(DD-MM-YYYY)</i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mobile no. : </td>
+                <td>
+                    <input type="tel" size="1" value="+91"> - 
+                    <input type="tel" size="27">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Email id : </td>
+                <td><input type="email" size="35"></td>
+            </tr>
+            
+            <tr>
+                <td>Password : </td>
+                <td><input type="password" size="35"></td>
+            </tr>
+            
+            <tr>
+                <td>Gender : </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">Male
+                    <input type="radio" id="female" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Department : </td> 
+                <td>
+                    <input type="checkbox" id="cse" name="department">CSE
+                    <input type="checkbox" id="it" name="department">IT
+                    <input type="checkbox" id="ece" name="department">ECE
+                    <input type="checkbox" id="civil" name="department">Civil
+                    <input type="checkbox" id="mech" name="department">Mech
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Course : </td>
+                <td><select>
+                    <option>-----Select Current Course's-----</option>
+                    <option value="bca">BCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="bmc">BMC</option>
+                    <option value="mca">MCA</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Student photo : </td> 
+                <td><input type="file" id="photo"></td>
+            </tr>
+
+            <tr>
+                <td>City : </td> 
+                <td><input type="text" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea style="width: 270px; height: 70px;"></textarea></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
