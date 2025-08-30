@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.priority {
+    text-align: left;
+}
+
+button {
+    display: block; 
+    margin: auto;
+}

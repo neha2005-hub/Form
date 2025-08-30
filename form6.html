@@ -4,49 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: blue;
-            display: flex;
-            justify-content: center;
-        }
-        
-        input, select {
-            background-color: lightgrey;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 25px;
-        }
-
-        input::placeholder {
-            color: black;
-        }
-
-        form {
-            background-color: white;
-            border-radius: 10px;
-            width: 330px; 
-            height: 480px;
-            padding: 20px;
-            margin: 100px;
-        }
-
-        button {
-            background-color: blue;
-            color: white;
-            width: 50%;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="form6.css">
 </head>
 <body>
     <form action="first.html">
-        <h1 align="center">Registration Form</h1>
+        <h1>Registration Form</h1>
 
         <input type="text" placeholder="Name*" id="name" required><br><br>
         
@@ -63,9 +25,8 @@
 
         <input type="text" placeholder="Message*" id="message" required><br><br>
 
-        <center>
-            <button type="submit">Submit</button>
-        </center>
+        <button type="submit">Submit</button>
+        
     </form>
 </body>
 </html>

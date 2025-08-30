@@ -1,0 +1,22 @@
+form {
+    background-color: palevioletred;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 270px; 
+    height: 70px;
+}
+
+button {
+    display: block; 
+    margin: auto;
+}
